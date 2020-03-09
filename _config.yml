@@ -107,3 +107,10 @@ deploy:
   type: git
   repo: git@github.com:hsqblog/hsqblog.github.io.git
   branch: master
+
+# 字数统计
+symbols_count_time:
+  symbols: true
+  time: true
+  total_symbols: true
+  total_time: true
