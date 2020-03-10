@@ -1,8 +1,15 @@
 ---
 title: {{ title }}
-tags: 
-    - null
-categories: 
-comments:
 date: {{ date }}
+author: 
+img: 
+top: true
+cover: 
+coverImg: 
+toc: false
+mathjax: false
+summary: 
+categories: 
+tags:
+  - Typora
 ---
