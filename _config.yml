@@ -105,7 +105,9 @@ theme: next
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: git@github.com:hsqblog/hsqblog.github.io.git
+  repo: 
+    github: git@github.com:hsqblog/hsqblog.github.io.git
+    gitee: git@gitee.com:red-x_admin/red-x_admin.git
   branch: master
 
 # 字数统计
