@@ -54,10 +54,53 @@
     src: url(./font/simfang.ttf)
 }
 
+@font-face{
+    font-family: YAOTI;
+    src: url(./font/FZYTK.TTF)
+}
+
+/* Z 轴旋转动画 头像*/
+@-webkit-keyframes play {
+    0% {
+      -webkit-transform: rotateZ(0deg);
+    }
+    100% {
+      -webkit-transform: rotateZ(360deg);
+    }
+  }
+  @-moz-keyframes play {
+    0% {
+      -moz-transform: rotateZ(0deg);
+    }
+    100% {
+      -moz-transform: rotateZ(360deg);
+    }
+  }
+  @keyframes play {
+    0% {
+      transform: rotateZ(0deg);
+    }
+    100% {
+      transform: rotateZ(360deg);
+    }
+  }
+
 body {
     background-color: #eaeaea;
     margin: 0;
     color: #34495e;
+    cursor: url(https://cdn.jsdelivr.net/gh/hsqblog/CDN/ALipointer2.cur),auto;
+} 
+a:hover{
+    cursor: url(https://cdn.jsdelivr.net/gh/hsqblog/CDN/ALipointer.cur),pointer;
+}
+
+h1,h2,h3,h4,h5{
+    cursor: url(https://cdn.jsdelivr.net/gh/hsqblog/CDN/ALiauto.cur),auto;
+}
+
+::selection{
+    background-color: #ee6b8c62;
 }
 
 h1 {
@@ -104,6 +147,7 @@ h6 {
 p {
     font-size: 1rem;
     line-height: 1.5rem;
+    cursor: url(https://cdn.jsdelivr.net/gh/hsqblog/CDN/ALiauto.cur),pointer;
 }
 
 hr {
@@ -614,7 +658,7 @@ header .go-back i {
 .bg-cover .title {
     font-size: 3rem;
     font-weight: bold;
-    font-family: XINWEI;
+    font-family: YAOTI;
     line-height: 1.85em;
     margin-bottom: 20px;
     position: relative;
@@ -624,6 +668,7 @@ header .go-back i {
     font-size: 1.25rem;
     line-height: 1.4em;
     font-weight: 600;
+    font-family: ZHONGSONG;
     color: #eee;
 }
 
@@ -743,6 +788,7 @@ header .go-back i {
 .music-player .title,
 .video-player .title {
     margin-bottom: 20px;
+    font-family: kai;
     font-size: 2rem;
     font-weight: 700;
 }
@@ -756,6 +802,8 @@ header .go-back i {
 .video-player {
     margin-top: 10px;
     margin-bottom: 50px;
+    cursor: url(https://cdn.jsdelivr.net/gh/hsqblog/CDN/ALipointer.cur),auto;
+    
 }
 
 .music,
@@ -1341,7 +1389,8 @@ thead {
 
 .chip-container .chip:hover {
     color: #fff;
-    background: linear-gradient(to right, #4cbf30 0%, #0f9d58 100%) !important;
+    background: linear-gradient(to bottom right, #FF5E3A 0%, #FF2A68 100%) !important;
+    cursor: url(https://cdn.jsdelivr.net/gh/hsqblog/CDN/ALipointer.cur),pointer;
 }
 
 .chip .tag-length {
@@ -1351,7 +1400,12 @@ thead {
 }
 
 .chip-default .tag-length {
-    color: #e91e63;
+    color: #000;
+    margin-top: 1px;
+}
+
+.chip-default .tag-length:hover{
+    color: #FFF;
     margin-top: 1px;
 }
 
@@ -1660,12 +1714,17 @@ thead {
     border-radius: 50%;
     box-shadow: 0 4px 6px rgba(50, 50, 93, .21), 0 2px 3px rgba(0, 0, 0, .1);
 }
-
-.profile .avatar-img {
-    max-width: 160px;
-    width: 100%;
-    margin: 0 auto;
+.transform{
     transform: translate3d(0, -65%, 0);
+}
+.profile .avatar-img {
+   max-width: 160px;
+    width: 100%;
+    margin: 0 auto;  
+    /* 头像循环旋转 */
+    -webkit-animation: play 4s linear infinite;
+    -moz-animation: play 4s linear infinite;
+    animation: play 4s linear infinite;
 }
 
 .profile .author {
@@ -1853,7 +1912,7 @@ thead {
     width: 100%;
     height: 200px;
     border-radius: 10px;
-    cursor: pointer;
+    cursor: url(https://cdn.jsdelivr.net/gh/hsqblog/CDN/ALipointer.cur),pointer;
 }
 
 /*尾部样式*/
@@ -1935,6 +1994,8 @@ footer .copy-right {
     background: linear-gradient(to bottom right, #FF5E3A 0%, #FF2A68 100%);
     width: 48px;
     height: 48px;
+    top: -60px;
+    right: 8px;
 }
 
 .top-scroll .btn-floating i {
