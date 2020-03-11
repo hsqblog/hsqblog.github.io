@@ -32,6 +32,27 @@
         max-width: 1250px;
     }
 }
+@font-face{
+    font-family: XINWEI;
+    src: url(./font/STXINWEI.TTF);
+}
+@font-face{
+    font-family: XINGKAI;
+    src: url(./font/STXINGKA.TTF);
+}
+@font-face{
+    font-family: KAI;
+    src: url(./font/simkai.ttf);
+}
+@font-face{
+    font-family: ZHONGSONG;
+    src: url(./font/STZHONGS.TTF);
+}
+
+@font-face{
+    font-family: FANGSONG;
+    src: url(./font/simfang.ttf)
+}
 
 body {
     background-color: #eaeaea;
@@ -277,7 +298,7 @@ mark {
 }
 
 header .side-nav {
-    width: 240px;
+    width: 200px;
     z-index: 999;
     box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 7px 10px 0 rgba(0, 0, 0, 0.12);
 }
@@ -317,23 +338,28 @@ header .side-nav .mobile-head {
 
 header .side-nav .mobile-head img {
     margin-top: 30px;
-    width: 75px;
-    height: 75px;
+    width: 100px;
+    height: 100px;
 }
 
 header .side-nav .mobile-head .logo-name {
     margin-top: -30px;
     padding-left: 10px;
+    font-weight: 600;
     font-size: 1.5rem;
+    text-align: center;
 }
 
 header .side-nav .mobile-head .logo-desc {
     margin-top: -10px;
     padding-left: 10px;
     padding-bottom: 10px;
-    font-size: 0.8rem;
+    font-size: 1rem;
     line-height: 1.3rem;
     color: #e3e3e3;
+    text-align: center;
+    font-family: KAI;
+    font-weight: bold;
 }
 
 header .side-nav .menu-list li {
@@ -354,7 +380,7 @@ header .side-nav .menu-list a {
 }
 
 header .side-nav .fa-fw {
-    width: 3.3rem;
+    /*width: 3.3rem;*/
     text-align: left;
 }
 
@@ -382,6 +408,7 @@ header .side-nav .social-link {
     height: 45px;
     line-height: 45px;
     font-size: 1rem;
+    font-weight: bold;
     color: #fff;
     border: 1px solid #fff;
     background-color: transparent;
@@ -517,6 +544,13 @@ header .side-nav .social-link {
     color: #fff;
 }
 
+
+.cover-social-link a:hover{
+    padding: 0 15px;
+    font-size: 1.35rem;
+    color: #f44336;
+}
+
 header .go-back {
     float: left;
     position: relative;
@@ -555,8 +589,8 @@ header .go-back i {
 }
 
 .bg-cover:after {
-    -webkit-animation: rainbow 60s infinite;
-    animation: rainbow 60s infinite;
+    -webkit-animation: rainbow 180s infinite;
+    animation: rainbow 180s infinite;
 }
 
 .bg-cover:before,
@@ -580,22 +614,23 @@ header .go-back i {
 .bg-cover .title {
     font-size: 3rem;
     font-weight: bold;
+    font-family: XINWEI;
     line-height: 1.85em;
     margin-bottom: 20px;
     position: relative;
 }
 
 .bg-cover .description {
-    font-weight: bold;
     font-size: 1.25rem;
     line-height: 1.4em;
+    font-weight: 600;
     color: #eee;
 }
 
 .bg-cover .post-title {
     margin: 0 auto;
     font-size: 2.5rem;
-    font-weight: 400;
+    font-weight: 600;
 }
 
 @-webkit-keyframes rainbow {
@@ -944,7 +979,7 @@ article .card .card-action {
 article .article-tags .chip {
     margin: 2px;
     font-size: 0.8rem;
-    font-weight: 400;
+    font-weight: bold;
     height: 22px;
     line-height: 22px;
     color: #fff;
@@ -1046,7 +1081,7 @@ article .article-tags .chip {
 
 #artDetail .article-tag .chip {
     font-size: 1rem;
-    font-weight: 400;
+    font-weight: 600;
     height: 25px;
     line-height: 24px;
     color: #fff;
@@ -1063,7 +1098,7 @@ article .article-tags .chip {
     border-radius: 15px;
     margin-right: 5px;
     margin-bottom: 2px;
-    color: #42b983;
+    color: #EF5350;/*color: #42b983;*/
     background: #fff;
     border: 1px solid;
     transition: all 0.6s ease-in-out;
@@ -1071,7 +1106,7 @@ article .article-tags .chip {
 
 #artDetail .tag_share .article-tag .chip:hover {
     color: #fff;
-    background: #42b983;
+    background: #EF5350;/*background: #42b983;*/
 }
 
 #artDetail .post-cate {
@@ -1166,8 +1201,10 @@ article .article-tags .chip {
 
 #articleContent p {
     margin: 2px 2px 10px;
-    font-size: 1.05rem;
+    font-size: 1.2rem;
     line-height: 1.85rem;
+    font-family: FANGSONG;
+    font-weight: 500;
 }
 
 #articleContent blockquote p {
@@ -1599,7 +1636,8 @@ thead {
 }
 
 .post-statis .statis .name {
-    font-size: 0.9rem;
+    font-size: 1rem;
+    font-weight: 600;
     color: #777;
 }
 
@@ -1640,15 +1678,15 @@ thead {
 
 .profile .author .title {
     margin-bottom: 0.1rem;
-    font-size: 1.8rem;
-    font-weight: 500;
+    font-size: 2rem;
+    font-weight: 700;
     color: #3C4858;
 }
 
 .profile .author .career {
     margin: 8px 0;
-    font-size: 0.9rem;
-    font-weight: 400;
+    font-size: 1.1rem;
+    font-weight: 600;
     color: #777;
 }
 
@@ -1660,6 +1698,9 @@ thead {
     margin: 1.5rem auto 3rem;
     max-width: 600px;
     color: #999;
+    font-family: KAI;
+    font-weight: 600;
+    font-size: 19px;
 }
 
 .post-charts,
@@ -1839,13 +1880,14 @@ footer .copy-right {
 }
 
 #searchModal {
-    min-height: 500px;
+    min-height: 100px;
     width: 80%;
 }
 
 #searchModal .search-header .title {
-    font-size: 1.6rem;
+    font-size: 1.3rem;
     color: #333;
+    font-family: FANGSONG;
 }
 
 #searchResult {
@@ -2011,6 +2053,7 @@ footer .copy-right {
 /*二级菜单*/
 
 .nav-menu {
+    font-weight: 600;
 }
 
 .nav-menu li .sub-nav {
