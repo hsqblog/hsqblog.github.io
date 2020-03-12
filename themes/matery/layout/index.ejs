@@ -4,14 +4,14 @@
     <%- partial('_partial/bg-cover') %>
 <% } %>
 
-<main class="content">
+<main class="content" data-aos="zoom-in-up">
     <% if (page.current === 1
             && (theme.dream.enable || (theme.music.enable && !theme.music.fixed))
                     || theme.video.enable || theme.recommend.enable) { %>
     <div id="indexCard" class="index-card">
         <div class="container ">
             <div class="card">
-                <div class="card-content">
+                <div class="card-content" data-aos="zoom-in-up">
                     <% if (theme.dream.enable) { %>
                         <%- partial('_widget/dream') %>
                     <% } %>

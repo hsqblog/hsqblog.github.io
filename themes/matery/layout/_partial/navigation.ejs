@@ -10,7 +10,7 @@
 %>
 
 <a href="#" data-target="mobile-nav" class="sidenav-trigger button-collapse"><i class="fas fa-bars"></i></a>
-<ul class="right nav-menu">
+<ul class="right nav-menu" data-aos="zoom-in-down">
   <% Object.keys(theme.menu).forEach(function(key) { %>
   <li class="hide-on-med-and-down nav-item">
     <% if(!theme.menu[key].children) { %>

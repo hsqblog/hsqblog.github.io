@@ -72,7 +72,7 @@
         </div>
         <hr class="clearfix">
         <div class="card-content article-card-content">
-            <div id="articleContent">
+            <div id="articleContent" data-aos="fade-up">
                 <%- page.content %>
             </div>
             <hr/>
@@ -80,7 +80,7 @@
             <%- partial('_partial/reprint-statement') %>
 
             <div class="tag_share" style="display: block;">
-                <div class="post-meta__tag-list" style="display: inline-block;">
+                <div class="post-meta__tag-list" style="display: inline-block;" data-aos="zoom-in-right">
                     <% if (page.tags && page.tags.length) { %>
                         <div class="article-tag">
                             <% page.tags.forEach(function(tag) { %>
@@ -95,7 +95,7 @@
                         </div>
                     <% } %>
                 </div>
-                <div class="post_share" style="zoom: 80%; width: fit-content; display: inline-block; float: right; margin: -0.15rem 0;">
+                <div class="post_share" style="zoom: 80%; width: fit-content; display: inline-block; float: right; margin: -0.15rem 0;" data-aos="zoom-in-left">
                     <%- partial('_partial/share') %>
                 </div>
             </div>
