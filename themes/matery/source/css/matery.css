@@ -367,9 +367,17 @@ header .brand-logo .logo-img {
     padding-bottom: 6px;
 }
 
+header .logo-img:hover{
+    -webkit-filter: drop-shadow(5px 5px 5px #222);
+    filter: drop-shadow(5px 5px 5px #222);
+}
+
 header .brand-logo .logo-span {
     font-size: 2rem;
     font-weight: bold;
+    display: inline-block;
+    width: 90px;
+    height: 90px;
 }
 
 header .button-collapse i {
@@ -454,18 +462,21 @@ header .side-nav .social-link {
     font-size: 1rem;
     font-weight: bold;
     color: #fff;
-    border: 1px solid #fff;
+    /*border: 1px solid #fff;*/
     background-color: transparent;
     border-radius: 30px;
-    box-shadow: none;
+    box-shadow: 0px 0px 10px 0px #000;
 }
 
 .cover-btns a:hover {
-    border: 1px solid #f44336;
-    background-color: #f44336;
+    /*border: 1px solid #fff;*/
+    /*background-color: #f44336;*/
     box-shadow: 0 14px 26px -12px rgba(233, 30, 99, 0.42),
             0 4px 23px 0 rgba(0, 0, 0, 0.12),
             0 8px 10px -5px rgba(233, 30, 99, 0.2);
+    box-shadow: 0px 0px 10px 0px #000 inset;
+    text-shadow: 0.02em 0.02em 0.2em #000;
+    background-color: transparent;
 }
 
 .cover-btns a i {
@@ -586,6 +597,7 @@ header .side-nav .social-link {
     padding: 0 15px;
     font-size: 1.35rem;
     color: #fff;
+    text-shadow: 0.1em 0.1em 0.2em #000;
 }
 
 
@@ -662,6 +674,7 @@ header .go-back i {
     line-height: 1.85em;
     margin-bottom: 20px;
     position: relative;
+    text-shadow: 0.05em 0.05em 0.05em black;
 }
 
 .bg-cover .description {
@@ -670,6 +683,7 @@ header .go-back i {
     font-weight: 600;
     font-family: ZHONGSONG;
     color: #eee;
+    text-shadow: 0.05em 0.05em 0.05em black;
 }
 
 .bg-cover .post-title {
@@ -677,9 +691,8 @@ header .go-back i {
     font-size: 2.5rem;
     font-weight: 600;
 }
-/*
 @-webkit-keyframes rainbow {
-
+/*
     0%,
     100% {
         background: rgba(156, 39, 176, 0.75);
@@ -722,10 +735,11 @@ header .go-back i {
         background: -moz-linear-gradient(135deg, rgba(233, 30, 99, 0.75) 0%, rgba(233, 30, 99, 0.65) 100%);
         background: -webkit-linear-gradient(135deg, rgba(2233, 30, 99, 0.75) 0%, rgba(233, 30, 99, 0.65) 100%);
     }
+    */
 }
 
 @keyframes rainbow {
-
+/*
     0%,
     100% {
         background: rgba(156, 39, 176, 0.75);
@@ -768,8 +782,10 @@ header .go-back i {
         background: -moz-linear-gradient(135deg, rgba(233, 30, 99, 0.75) 0%, rgba(233, 30, 99, 0.65) 100%);
         background: -webkit-linear-gradient(135deg, rgba(2233, 30, 99, 0.75) 0%, rgba(233, 30, 99, 0.65) 100%);
     }
+    */
 }
-*/
+
+
 .index-card {
     margin-top: -10px;
     padding-top: 20px;
@@ -1929,6 +1945,12 @@ footer a {
     color: #fff;
 }
 
+footer a:hover{
+    color: #fff;
+    text-shadow: 0.1em 0.1em 0.3em #000;
+}
+
+
 footer .copy-right {
     color: #dbdbdb;
 }
@@ -2116,6 +2138,12 @@ footer .copy-right {
 .nav-menu {
     font-weight: 600;
 }
+
+.nav-menu:hover{
+    font-weight: 600;
+    text-shadow: 0.1em 0.1em 0.2em #000;
+}
+
 
 .nav-menu li .sub-nav {
     position: absolute;

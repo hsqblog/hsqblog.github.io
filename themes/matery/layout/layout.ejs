@@ -99,7 +99,7 @@
     <% if (theme.instantpage.enable) { %>
     <script src="<%- theme.libs.js.instantpage %>" type="module"></script>
     <% } %>
-
+    <script type="text/javascript"> var OriginTitile = document.title, st; document.addEventListener("visibilitychange", function () { document.hidden ? (document.title = "(o´･_･)っ你真的要走？", clearTimeout(st)) : (document.title = "(｡•̀ᴗ-)✧就知道你舍不得我", st = setTimeout(function () { document.title = OriginTitile }, 3e3)) }) </script>
 </body>
 
 </html>

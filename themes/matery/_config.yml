@@ -141,7 +141,7 @@ socialLink:
 # 是否激活文章 TOC 功能，并配置TOC支持选中哪些标题类型，这是全局配置。
 # 可以在某篇文章的 Front-matter 中再加上`toc: false`，使该篇文章关闭TOC目录功能
 toc:
-  enable: true
+  enable: false
   heading: h2, h3, h4
   collapseDepth: 0 # 目录默认展开层级
   showToggleBtn: true # 是否显示切换TOC目录展开收缩的按钮
@@ -200,7 +200,7 @@ clicklove:
 profile:
   avatar: /medias/avatar.jpg
   career: IT-老夫子
-  introduction: 是疯狂下的懦弱，暴雨中流下五彩斑斓的生活.....
+  introduction: 是疯狂下的懦弱，暴雨中流下五彩斑斓的生活......
 
 # config my projects informations in about page.
 # If you don't want to display this `My Projects` content, you can deactivate or delete this configuration.
@@ -513,3 +513,18 @@ icp:
   enable: false
   url: # 备案链接
   text: # 备案信息
+
+lazyload:
+  enable: true 
+  #如果为真，则只有文章或页面中的图像支持延迟加载。
+  #如果为假，整个网站的图像将使用惰性加载，包括来自主题的图像，但不包括来自CSS样式的背景图像。
+  onlypost: false
+  loadingImg: ./loading.gif
+
+  # 表情支持
+  githubEmojis:
+    enable: true
+    className: github-emoji
+    inject: true
+    styles:
+    customEmojis:
