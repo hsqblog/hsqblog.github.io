@@ -34,29 +34,72 @@
 }
 @font-face{
     font-family: XINWEI;
-    src: url(./font/STXINWEI.TTF);
+    src: url('./font/STXINWEI.eot');
+    src:
+        url('./font/STXINWEI.eot?#font-spider') format('embedded-opentype'),
+        url('./font/STXINWEI.woff') format('woff'),
+        url('./font/STXINWEI.TTF') format('truetype'),
+        url('./font/STXINWEI.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
 }
+
 @font-face{
     font-family: XINGKAI;
-    src: url(./font/STXINGKA.TTF);
+    src: url(./font/STXINGKA.eot);
+    src:
+        url('./font/STXINGKA.eot#font-spider') format('embedded-opentype'),
+        url('./font/STXINGKA.woff') format('woff'),
+        url('./font/STXINGKA.TTF') format('truetype'),
+        url('./font/STXINGKA.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
 }
 @font-face{
     font-family: KAI;
-    src: url(./font/simkai.ttf);
+    src: url(./font/simkai.eot);
+    src:
+        url('./font/simkai.eot?#font-spider') format('embedded-opentype'),
+        url('./font/simkai.woff') format('woff'),
+        url('./font/simkai.TTF') format('truetype'),
+        url('./font/simkai.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
 }
 @font-face{
     font-family: ZHONGSONG;
-    src: url(./font/STZHONGS.TTF);
+    src: url(./font/STZHONGS.eot);
+    src:
+        url('./font/STZHONGS.TTF.eot?#font-spider') format('embedded-opentype'),
+        url('./font/STZHONGS.woff') format('woff'),
+        url('./font/STZHONGS.TTF') format('truetype'),
+        url('./font/STZHONGS.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
 }
 
 @font-face{
     font-family: FANGSONG;
-    src: url(./font/simfang.ttf)
+    src: url(./font/simfang.eot);
+    src:
+        url('./font/simfang.ttf.eot?#font-spider') format('embedded-opentype'),
+        url('./font/simfang.woff') format('woff'),
+        url('./font/simfang.TTF') format('truetype'),
+        url('./font/simfang.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
 }
 
 @font-face{
     font-family: YAOTI;
-    src: url(./font/FZYTK.TTF)
+    src: url(./font/FZYTK.eot);
+    src:
+        url('./font/FZYTK.eot?#font-spider') format('embedded-opentype'),
+        url('./font/FZYTK.woff') format('woff'),
+        url('./font/FZYTK.TTF') format('truetype'),
+        url('./font/FZYTK.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
 }
 
 /* Z 轴旋转动画 头像*/
@@ -183,7 +226,11 @@ pre {
     overflow: auto;
     border-radius: 0.35rem;
     tab-size: 4;
+    box-shadow: 0 0 6px 0.5px #aaa;
+    font-weight: 600;
+    background-color: transparent !important;
 }
+
 
 .code-area::after {
     content: " ";
@@ -203,7 +250,7 @@ code {
     padding: 1px 5px;
     top: 13px !important;
     font-family: Inconsolata, Monaco, Consolas, 'Courier New', Courier, monospace;
-    font-size: 0.91rem;
+    font-size: 0.8rem !important;
     color: #e96900;
     background-color: #f8f8f8;
     border-radius: 2px;
@@ -215,7 +262,7 @@ code {
     right: 25px;
     z-index: 1;
     filter: invert(50%);
-    cursor: pointer;
+    cursor: url(https://cdn.jsdelivr.net/gh/hsqblog/CDN/ALipointer.cur),pointer;
 }
 
 .codecopy_notice {
@@ -236,7 +283,7 @@ code {
     font-family: normal;
     z-index: 1;
     filter: invert(50%);
-    cursor: pointer;
+    cursor: url(https://cdn.jsdelivr.net/gh/hsqblog/CDN/ALipointer.cur),pointer;
 } 
 
 .code-expand {
@@ -246,7 +293,7 @@ code {
     filter: invert(50%);
     padding: 7px;
     z-index: 999 !important;
-    cursor: pointer;
+    cursor: url(https://cdn.jsdelivr.net/gh/hsqblog/CDN/ALipointer.cur),pointer;
     transition: all .3s;
     transform: rotate(0deg);
 }
