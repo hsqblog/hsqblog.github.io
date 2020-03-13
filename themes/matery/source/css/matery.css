@@ -34,31 +34,27 @@
 }
 
 @font-face{
-    font-family: XINWEI;
-    src: url(../font/STXINWEI.TTF);
-}
-
-@font-face{
-    font-family: XINGKAI;
-    src: url(../font/STXINGKA.TTF);
-}
-@font-face{
     font-family: KAI;
-    src: url(../font/simkai.ttf);
+    src: url(../font/FZKTJW.TTF);
 }
 @font-face{
     font-family: ZHONGSONG;
-    src: url(../font/STZHONGS.TTF);
+    src: url(../font/FZSSJW.TTF);
 }
 
 @font-face{
     font-family: FANGSONG;
-    src: url(../font/simfang.ttf);
+    src: url(../font/FZFSJW.TTF);
 }
 
 @font-face{
     font-family: YAOTI;
-    src: url(../font/FZYTK.TTF);
+    src: url(../font/ZKGDH.ttf);
+}
+
+@font-face{
+    font-family: HEITI;
+    src: url(../font/FZHTJW.TTF);
 }
 
 /* Z 轴旋转动画 头像*/
