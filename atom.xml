@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>REDX</title>
+  
+  <subtitle>记录替代记忆</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="https://hsqblog.github.io/"/>
+  <updated>2020-03-13T22:56:29.860Z</updated>
+  <id>https://hsqblog.github.io/</id>
+  
+  <author>
+    <name>Alan.H</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Markdown语法记录</title>
+    <link href="https://hsqblog.github.io/2020/03/13/Markdown%E8%AF%AD%E6%B3%95%E8%AE%B0%E5%BD%95/"/>
+    <id>https://hsqblog.github.io/2020/03/13/Markdown%E8%AF%AD%E6%B3%95%E8%AE%B0%E5%BD%95/</id>
+    <published>2020-03-13T13:28:03.000Z</published>
+    <updated>2020-03-13T22:56:29.860Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;Markdown&quot;&gt;&lt;a href=&quot;#Markdown&quot; class=&quot;headerlink&quot; title=&quot;Markdown&quot;&gt;&lt;/a&gt;Markdown&lt;/h1&gt;&lt;p&gt;&lt;strong&gt;归属：&lt;/strong&gt;
+        
+      
+    
+    </summary>
+    
+    
+      <category term="Markdown" scheme="https://hsqblog.github.io/categories/Markdown/"/>
+    
+    
+      <category term="Markdown" scheme="https://hsqblog.github.io/tags/Markdown/"/>
+    
+      <category term="记录" scheme="https://hsqblog.github.io/tags/%E8%AE%B0%E5%BD%95/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>About-REDX</title>
+    <link href="https://hsqblog.github.io/2020/03/10/About-REDX/"/>
+    <id>https://hsqblog.github.io/2020/03/10/About-REDX/</id>
+    <published>2020-03-09T16:38:42.000Z</published>
+    <updated>2020-03-13T22:17:10.294Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;&lt;strong&gt;REDX&lt;/strong&gt; 是 &lt;strong&gt;RED&lt;/strong&gt; 和 &lt;strong&gt;X&lt;/strong&gt;
+        
+      
+    
+    </summary>
+    
+    
+      <category term="生活" scheme="https://hsqblog.github.io/categories/%E7%94%9F%E6%B4%BB/"/>
+    
+    
+      <category term="生活" scheme="https://hsqblog.github.io/tags/%E7%94%9F%E6%B4%BB/"/>
+    
+      <category term="碎碎念" scheme="https://hsqblog.github.io/tags/%E7%A2%8E%E7%A2%8E%E5%BF%B5/"/>
+    
+  </entry>
+  
+</feed>

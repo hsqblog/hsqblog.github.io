@@ -1,0 +1,340 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title>Markdown语法记录</title>
+    <url>/2020/03/13/Markdown%E8%AF%AD%E6%B3%95%E8%AE%B0%E5%BD%95/</url>
+    <content><![CDATA[<h1 id="Markdown"><a href="#Markdown" class="headerlink" title="Markdown"></a>Markdown</h1><p><strong>归属：</strong> 轻量级标记语言</p>
+<p><strong>创始人：</strong> 约翰·格鲁伯（英语：John Gruber）</p>
+<p><strong>创建时间：</strong> 公元纪年2004年</p>
+<p><strong>文档后缀：</strong> <code>.md</code> <code>.markdown</code></p>
+<p><strong>应用：</strong> Gitbook、Blog……</p>
+<p><strong>编辑器：</strong> Typora、VSCode……</p>
+<h1 id="语法详解"><a href="#语法详解" class="headerlink" title="语法详解"></a>语法详解</h1><h2 id="标题"><a href="#标题" class="headerlink" title="标题"></a>标题</h2><p>使用<code>#</code>号可以表示1-6级标题，<code>#</code>号的数量对应标题的级数，级数越小字体越小，层级越小</p>
+<pre><code>
+ # 一级标题
+ ## 二级标题
+ ### 三级标题
+ #### 四级标题
+ ##### 五级标题
+ ###### 六级标题</code></pre><h2 id="段落"><a href="#段落" class="headerlink" title="段落"></a>段落</h2><p><strong>Markdown</strong> 的段落没有特殊格式，这里主要介绍一下段落换行：</p>
+<ul>
+<li>使用段落末尾加<code>两个以上空格</code> + <code>回车</code></li>
+<li>使用<code>空行</code>代表换行</li>
+</ul>
+<h2 id="字体"><a href="#字体" class="headerlink" title="字体"></a>字体</h2><pre class=" language-Markdown"><code class="language-Markdown">
+*斜体*
+_斜体_
+**粗体**
+__粗体__
+***粗斜体***
+___粗斜体___</code></pre>
+<h2 id="线条"><a href="#线条" class="headerlink" title="线条"></a>线条</h2><ul>
+<li>分割线</li>
+</ul>
+<pre class=" language-markdown"><code class="language-markdown">
+<span class="token hr punctuation">***</span>
+<span class="token hr punctuation">* * *</span>
+<span class="token hr punctuation">*****</span>
+<span class="token hr punctuation">- - -</span>
+<span class="token hr punctuation">-------</span></code></pre>
+<ul>
+<li>删除线</li>
+</ul>
+<pre class=" language-markdown"><code class="language-markdown">
+~~删除线条~~</code></pre>
+<ul>
+<li>下划线</li>
+</ul>
+<pre class=" language-html"><code class="language-html">
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>u</span><span class="token punctuation">></span></span>下划线<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>u</span><span class="token punctuation">></span></span>    <span class="token comment" spellcheck="true">&lt;!--使用HTML语法中的&lt;u>标签代替--></span></code></pre>
+<h2 id="脚注"><a href="#脚注" class="headerlink" title="脚注"></a>脚注</h2><pre class=" language-markdown"><code class="language-markdown">
+[^脚注]
+<span class="token url-reference url"><span class="token punctuation">[</span><span class="token variable">^脚注</span><span class="token punctuation">]</span><span class="token punctuation">:</span> 脚注内容</span></code></pre>
+<h2 id="列表"><a href="#列表" class="headerlink" title="列表"></a>列表</h2><ul>
+<li><p>无序列表</p>
+<p>使用<code>*</code>号 <code>+</code>号 <code>-</code>号都可标记无序列表</p>
+</li>
+</ul>
+<pre class=" language-markdown"><code class="language-markdown">
+<span class="token list punctuation">*</span> 无序列表
+<span class="token list punctuation">+</span> 无序列表
+<span class="token list punctuation">-</span> 无序列表</code></pre>
+<ul>
+<li>有序列表</li>
+</ul>
+<pre class=" language-markdown"><code class="language-markdown">
+<span class="token list punctuation">1.</span> 有序列表1
+<span class="token list punctuation">2.</span> 有序列表2
+<span class="token list punctuation">3.</span> 有序列表3</code></pre>
+<ul>
+<li>列表嵌套</li>
+</ul>
+<pre class=" language-markdown"><code class="language-markdown">
+<span class="token list punctuation">1.</span> 有序列表
+<span class="token code keyword">    - 嵌套列表     </span><span class="token comment" spellcheck="true">&lt;!--在嵌套列表前面加上四个空格实现嵌套--></span></code></pre>
+<h2 id="引用"><a href="#引用" class="headerlink" title="引用"></a>引用</h2><p>在段落前使用<code>&gt;</code> 号实现区块引用</p>
+<pre class=" language-markdown"><code class="language-markdown">
+<span class="token blockquote punctuation">></span> 区块引用
+<span class="token blockquote punctuation">>></span> 区块嵌套一层
+<span class="token blockquote punctuation">>>></span> 区块嵌套两层</code></pre>
+<h2 id="代码"><a href="#代码" class="headerlink" title="代码"></a>代码</h2><p>使用两个 <code>`</code> 号将段落中的代码引起来，实现代码显示</p>
+<pre class=" language-markdown"><code class="language-markdown">
+使用<span class="token code keyword">`printf()`</span>函数     <span class="token comment" spellcheck="true">&lt;!--使用代码--></span></code></pre>
+<h2 id="代码块"><a href="#代码块" class="headerlink" title="代码块"></a>代码块</h2><ul>
+<li>使用<code>四个空格</code>或<code>Tab键</code></li>
+<li>使用两个<code>```</code>扩起来并在后面制定语言，达成代码高亮</li>
+</ul>
+<pre class=" language-markdown"><code class="language-markdown">
+<span class="token code keyword">    #include &lt;stdio.h></span>
+<span class="token code keyword">    int main(){</span>
+<span class="token code keyword">            printf("REDX");</span>
+<span class="token code keyword">            return 0;</span>
+<span class="token code keyword">    }</span>
+
+```php    <span class="token comment" spellcheck="true">&lt;!--指定代码语言--></span>
+<span class="token code keyword">    &lt;? php</span>
+<span class="token code keyword">        echo "REDX";</span>
+<span class="token code keyword">    ?></span>
+```</code></pre>
+<h2 id="链接"><a href="#链接" class="headerlink" title="链接"></a>链接</h2><pre class=" language-markdown"><code class="language-markdown">
+<span class="token url">[链接名称](链接地址)</span>
+
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>链接地址</span><span class="token punctuation">></span></span>
+
+链接也可以用变量来代替，文档末尾附带变量地址：
+这个链接用 <span class="token code keyword">`1`</span> 作为网址变量 <span class="token url">[Google][<span class="token variable">1</span>]</span>
+这个链接用 <span class="token code keyword">`baidu`</span> 作为网址变量 <span class="token url">[BADIDU][<span class="token variable">baidu</span>]</span>
+然后在文档的结尾为变量赋值（网址）
+
+  <span class="token url-reference url"><span class="token punctuation">[</span><span class="token variable">1</span><span class="token punctuation">]</span><span class="token punctuation">:</span> http://www.google.com/</span>
+  <span class="token url-reference url"><span class="token punctuation">[</span><span class="token variable">baidu</span><span class="token punctuation">]</span><span class="token punctuation">:</span> http://www.baidu.com/</span></code></pre>
+<h2 id="图片"><a href="#图片" class="headerlink" title="图片"></a>图片</h2><pre class=" language-markdown"><code class="language-markdown">
+<span class="token url">![图片名称](图片地址)</span>
+
+这个链接用 1 作为网址变量 <span class="token url">[REDX][<span class="token variable">1</span>]</span>.
+然后在文档的结尾为变量赋值（网址）
+
+<span class="token url-reference url"><span class="token punctuation">[</span><span class="token variable">1</span><span class="token punctuation">]</span><span class="token punctuation">:</span> http://www.baidu.com/images/redx-logo.png</span></code></pre>
+<h2 id="表格"><a href="#表格" class="headerlink" title="表格"></a>表格</h2><p>使用<code>|</code>分割单元格，使用<code>-</code>分割表头与内容</p>
+<pre class=" language-markkdown"><code class="language-markkdown">
+|  表头   | 表头  |
+|  ----  | ----  |
+| 单元格  | 单元格 |
+| 单元格  | 单元格 |</code></pre>
+<p>使用<code>-:</code>表示右对齐，<code>:-</code>表示左对齐，<code>:-:</code>表示居中对齐</p>
+<pre class=" language-markdown"><code class="language-markdown">
+| 左对齐 | 右对齐 | 居中对齐 |
+| :-----| ----: | :----: |
+| 单元格 | 单元格 | 单元格 |
+| 单元格 | 单元格 | 单元格 |</code></pre>
+<h2 id="公式"><a href="#公式" class="headerlink" title="公式"></a>公式</h2><p>使用两个<code>$$</code>扩起来实现加载<code>Mathjax</code>渲染<code>TeX</code> <code>LaTex</code>格式的数学公式</p>
+<pre class=" language-markdown"><code class="language-markdown">
+$$
+\mathbf{V}<span class="token italic"><span class="token punctuation">_</span>1 \times \mathbf{V}<span class="token punctuation">_</span></span>2 =  \begin{vmatrix} 
+\mathbf{i} &amp; \mathbf{j} &amp; \mathbf{k} \\
+\frac{\partial X}{\partial u} &amp;  \frac{\partial Y}{\partial u} &amp; 0 \\
+\frac{\partial X}{\partial v} &amp;  \frac{\partial Y}{\partial v} &amp; 0 \\
+\end{vmatrix}
+${$tep1}{\style{visibility:hidden}{(x+1)(x+1)}}
+$$</code></pre>
+<p>输出：</p>
+<p><img src="https://cdn.jsdelivr.net/gh/hsqblog/CDN//markdown0.png" alt=""></p>
+<h2 id="流程图"><a href="#流程图" class="headerlink" title="流程图"></a>流程图</h2><pre class=" language-markdown"><code class="language-markdown">
+```mermaid
+graph LR
+A[方形] -->B(圆角)
+<span class="token code keyword">    B --> C{条件a}</span>
+<span class="token code keyword">    C -->|a=1| D[结果1]</span>
+<span class="token code keyword">    C -->|a=2| E[结果2]</span>
+<span class="token code keyword">    F[横向流程图]</span>
+```</code></pre>
+<p>输出（横向流程图）：</p>
+<p><img src="https://cdn.jsdelivr.net/gh/hsqblog/CDN//markdown1.png" alt=""></p>
+<pre class=" language-markdown"><code class="language-markdown">
+```mermaid
+graph TD
+A[方形] --> B(圆角)
+<span class="token code keyword">    B --> C{条件a}</span>
+<span class="token code keyword">    C --> |a=1| D[结果1]</span>
+<span class="token code keyword">    C --> |a=2| E[结果2]</span>
+<span class="token code keyword">    F[竖向流程图]</span>
+```</code></pre>
+<p>输出（竖向流程图）：</p>
+<p><img src="https://cdn.jsdelivr.net/gh/hsqblog/CDN//markdown2.png" alt=""></p>
+<pre class=" language-markdown"><code class="language-markdown">
+```flow
+st=>start: 开始框
+op=>operation: 处理框
+cond=>condition: 判断框(是或否?)
+sub1=>subroutine: 子流程
+io=>inputoutput: 输入输出框
+e=>end: 结束框
+st->op->cond
+cond(yes)->io->e
+cond(no)->sub1(right)->op
+```</code></pre>
+<p>输出（标准竖向流程图）：</p>
+<p><img src="https://cdn.jsdelivr.net/gh/hsqblog/CDN//markdown3.png" alt=""></p>
+<pre class=" language-markdown"><code class="language-markdown">
+```flow
+st=>start: 开始框
+op=>operation: 处理框
+cond=>condition: 判断框(是或否?)
+sub1=>subroutine: 子流程
+io=>inputoutput: 输入输出框
+e=>end: 结束框
+st(right)->op(right)->cond
+cond(yes)->io(bottom)->e
+cond(no)->sub1(right)->op
+```</code></pre>
+<p>输出（标准横向流程图）：</p>
+<p><img src="https://cdn.jsdelivr.net/gh/hsqblog/CDN//markdown4.png" alt=""></p>
+<pre class=" language-markdown"><code class="language-markdown">
+```sequence
+对象A->对象B: 对象B你好吗?（请求）
+Note right of 对象B: 对象B的描述
+Note left of 对象A: 对象A的描述(提示)
+对象B-->对象A: 我很好(响应)
+对象A->对象B: 你真的好吗？
+```</code></pre>
+<p>输出（UML时序图）：</p>
+<p><img src="https://cdn.jsdelivr.net/gh/hsqblog/CDN//markdown5.png" alt=""></p>
+<pre class=" language-markdown"><code class="language-markdown">
+```sequence
+Title: 标题：复杂使用
+对象A->对象B: 对象B你好吗?（请求）
+Note right of 对象B: 对象B的描述
+Note left of 对象A: 对象A的描述(提示)
+对象B-->对象A: 我很好(响应)
+对象B->小三: 你好吗
+小三-->>对象A: 对象B找我了
+对象A->对象B: 你真的好吗？
+Note over 小三,对象B: 我们是朋友
+participant C
+Note right of C: 没人陪我玩
+```</code></pre>
+<p>输出（UML时序图复杂）：</p>
+<p><img src="https://cdn.jsdelivr.net/gh/hsqblog/CDN//markdown6.png" alt=""></p>
+<pre class=" language-markdown"><code class="language-markdown">
+```mermaid
+%% 时序图例子,-> 直线，-->虚线，->>实线箭头
+  sequenceDiagram
+<span class="token code keyword">    participant 张三</span>
+<span class="token code keyword">    participant 李四</span>
+<span class="token code keyword">    张三->王五: 王五你好吗？</span>
+<span class="token code keyword">    loop 健康检查</span>
+<span class="token code keyword">        王五->王五: 与疾病战斗</span>
+<span class="token code keyword">    end</span>
+<span class="token code keyword">    Note right of 王五: 合理 食物 &lt;br/>看医生...</span>
+<span class="token code keyword">    李四-->>张三: 很好!</span>
+<span class="token code keyword">    王五->李四: 你怎么样?</span>
+<span class="token code keyword">    李四-->王五: 很好!</span>
+```</code></pre>
+<p>输出（UML标准时序图）：</p>
+<p><img src="https://cdn.jsdelivr.net/gh/hsqblog/CDN//markdown7.png" alt=""></p>
+<pre class=" language-markdown"><code class="language-markdown">
+```mermaid
+%% 语法示例
+<span class="token code keyword">        gantt</span>
+<span class="token code keyword">        dateFormat  YYYY-MM-DD</span>
+<span class="token code keyword">        title 软件开发甘特图</span>
+<span class="token code keyword">        section 设计</span>
+<span class="token code keyword">        需求                      :done,    des1, 2014-01-06,2014-01-08</span>
+<span class="token code keyword">        原型                      :active,  des2, 2014-01-09, 3d</span>
+<span class="token code keyword">        UI设计                     :         des3, after des2, 5d</span>
+<span class="token code keyword">    未来任务                     :         des4, after des3, 5d</span>
+<span class="token code keyword">        section 开发</span>
+<span class="token code keyword">        学习准备理解需求                      :crit, done, 2014-01-06,24h</span>
+<span class="token code keyword">        设计框架                             :crit, done, after des2, 2d</span>
+<span class="token code keyword">        开发                                 :crit, active, 3d</span>
+<span class="token code keyword">        未来任务                              :crit, 5d</span>
+<span class="token code keyword">        耍                                   :2d</span>
+<span class="token code keyword">        section 测试</span>
+<span class="token code keyword">        功能测试                              :active, a1, after des3, 3d</span>
+<span class="token code keyword">        压力测试                               :after a1  , 20h</span>
+<span class="token code keyword">        测试报告                               : 48h</span>
+```</code></pre>
+<p>输出（甘特图）：</p>
+<p><img src="https://cdn.jsdelivr.net/gh/hsqblog/CDN//markdown8.png" alt=""></p>
+<h2 id="高级"><a href="#高级" class="headerlink" title="高级"></a>高级</h2><ul>
+<li>支持<code>HTML</code>标签</li>
+<li>加上<code>\</code>转义字符</li>
+</ul>
+<pre><code>
+\   反斜线
+`   反引号
+*   星号
+_   下划线
+{}  花括号
+[]  方括号
+()  小括号
+#   井字号
++   加号
+-   减号
+.   英文句点
+!   感叹号</code></pre><script>
+        document.querySelectorAll('.github-emoji')
+          .forEach(el => {
+            if (!el.dataset.src) { return; }
+            const img = document.createElement('img');
+            img.style = 'display:none !important;';
+            img.src = el.dataset.src;
+            img.addEventListener('error', () => {
+              img.remove();
+              el.style.color = 'inherit';
+              el.style.backgroundImage = 'none';
+              el.style.background = 'none';
+            });
+            img.addEventListener('load', () => {
+              img.remove();
+            });
+            document.body.appendChild(img);
+          });
+      </script>]]></content>
+      <categories>
+        <category>Markdown</category>
+      </categories>
+      <tags>
+        <tag>Markdown</tag>
+        <tag>记录</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>About-REDX</title>
+    <url>/2020/03/10/About-REDX/</url>
+    <content><![CDATA[<p><strong>REDX</strong> 是 <strong>RED</strong> 和 <strong>X</strong> 连接词，一个本人比较喜欢使用的名字，但这个名字并没有太多的内涵，仅仅是因为本人喜欢红色，且X能够与RED的D形成一个很好的嵌套关系，就像非洲大陆和南美洲大陆一样……</p>
+<p>博主是一名将毕业的教育专业学生，不是985，也不是211，甚至连本科都不是，是一所不知名的十八流技术院校的大专生，每天忙活着零碎而繁杂的活动，在学业上不务正业。</p>
+<p>学历不好，是少年时代的分岔路走错了道儿，但未来青年时代，我不会再做让自己后悔的决定，我始终相信：</p>
+<p><strong>人都是一样的！</strong></p>
+<p>我热爱计算机技术，但是所有东西都没有经过系统的学习，现在也就只对 <code>C</code> <code>C++</code> <code>Linux</code> <code>HTML</code> <code>CSS</code> <code>PHP</code> 一知半解，也正因为如此，有了这个博客。</p>
+<p>个人简介里的那句话“用记录替代记忆”是博客的意义所在，人的脑容量是有限的，学会用这样一个博客去整理所知、所学、所疑、所感是一种必须学会的手段，今天，我迈开了这一步，希望在未来某天，蓦然回首，依旧欣然一笑，不悔不悲。</p>
+<p>博客能让我的学习更加系统，更加丰富，更加具有影响力和持久力。</p>
+<p>加油吧！少年！你的未来……依旧茫然！</p>
+<script>
+        document.querySelectorAll('.github-emoji')
+          .forEach(el => {
+            if (!el.dataset.src) { return; }
+            const img = document.createElement('img');
+            img.style = 'display:none !important;';
+            img.src = el.dataset.src;
+            img.addEventListener('error', () => {
+              img.remove();
+              el.style.color = 'inherit';
+              el.style.backgroundImage = 'none';
+              el.style.background = 'none';
+            });
+            img.addEventListener('load', () => {
+              img.remove();
+            });
+            document.body.appendChild(img);
+          });
+      </script>]]></content>
+      <categories>
+        <category>生活</category>
+      </categories>
+      <tags>
+        <tag>生活</tag>
+        <tag>碎碎念</tag>
+      </tags>
+  </entry>
+</search>
