@@ -6614,6 +6614,7 @@ textarea.materialize-textarea {
   background-color: transparent;
   -webkit-box-shadow: none;
           box-shadow: none;
+  color: white;
 }
 
     input:not([type]):disabled,

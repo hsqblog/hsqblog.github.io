@@ -3,6 +3,18 @@
 <%- partial('_partial/head') %>
 
 <body>
+    
+    <div id="preloader-body">
+        <div id="cube-wrapper">
+            <div class="cube-folding">
+                <span class="leaf1"></span>
+                <span class="leaf2"></span>
+                <span class="leaf3"></span>
+                <span class="leaf4"></span>
+            </div>
+            <span class="loading"data-name="Loading">Loading</span>
+        </div>
+    </div>
     <%- partial('_partial/header') %>
     <%- body %>
 
@@ -100,6 +112,13 @@
     <script src="<%- theme.libs.js.instantpage %>" type="module"></script>
     <% } %>
     <script type="text/javascript"> var OriginTitile = document.title, st; document.addEventListener("visibilitychange", function () { document.hidden ? (document.title = "(o´･_･)っ你真的要走？", clearTimeout(st)) : (document.title = "(｡•̀ᴗ-)✧就知道你舍不得我", st = setTimeout(function () { document.title = OriginTitile }, 3e3)) }) </script>
+    <script>
+        // 末尾绑定window.onload事件 (也可以用jquery或者vue实现，只需要在window加载完毕后，触发隐藏2个div即可)
+        window.onload = function () {
+            document.getElementById('cube-wrapper').style.display = "none";
+            document.getElementById('preloader-body').style.display = "none";
+        }
+    </script>
 </body>
 
 </html>
