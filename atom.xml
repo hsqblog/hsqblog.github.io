@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://hsqblog.github.io/"/>
-  <updated>2020-03-13T22:56:29.860Z</updated>
+  <updated>2020-03-14T18:11:43.717Z</updated>
   <id>https://hsqblog.github.io/</id>
   
   <author>
@@ -15,6 +15,127 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>PHP学习笔记一</title>
+    <link href="https://hsqblog.github.io/2020/03/14/PHP%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0%E4%B8%80/"/>
+    <id>https://hsqblog.github.io/2020/03/14/PHP%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0%E4%B8%80/</id>
+    <published>2020-03-14T12:41:12.000Z</published>
+    <updated>2020-03-14T18:11:43.717Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;介绍&quot;&gt;&lt;a href=&quot;#介绍&quot; class=&quot;headerlink&quot; title=&quot;介绍&quot;&gt;&lt;/a&gt;介绍&lt;/h1&gt;&lt;p&gt;&lt;strong&gt;PHP&lt;/strong&gt;
+        
+      
+    
+    </summary>
+    
+    
+      <category term="PHP" scheme="https://hsqblog.github.io/categories/PHP/"/>
+    
+    
+      <category term="PHP" scheme="https://hsqblog.github.io/tags/PHP/"/>
+    
+      <category term="学习" scheme="https://hsqblog.github.io/tags/%E5%AD%A6%E4%B9%A0/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>小米8SE换Pixel Experience系统教程</title>
+    <link href="https://hsqblog.github.io/2020/03/14/Experience%E7%B3%BB%E7%BB%9F%E6%95%99%E7%A8%8B/"/>
+    <id>https://hsqblog.github.io/2020/03/14/Experience%E7%B3%BB%E7%BB%9F%E6%95%99%E7%A8%8B/</id>
+    <published>2020-03-14T10:06:05.000Z</published>
+    <updated>2020-03-14T18:11:29.543Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;介绍&quot;&gt;&lt;a href=&quot;#介绍&quot; class=&quot;headerlink&quot; title=&quot;介绍&quot;&gt;&lt;/a&gt;介绍&lt;/h1&gt;&lt;p&gt;等我更新……&lt;/p&gt;
+&lt;script&gt;
+       
+        
+      
+    
+    </summary>
+    
+    
+      <category term="教程" scheme="https://hsqblog.github.io/categories/%E6%95%99%E7%A8%8B/"/>
+    
+    
+      <category term="搞机" scheme="https://hsqblog.github.io/tags/%E6%90%9E%E6%9C%BA/"/>
+    
+      <category term="教程" scheme="https://hsqblog.github.io/tags/%E6%95%99%E7%A8%8B/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Materyz主题的文章Front-matter</title>
+    <link href="https://hsqblog.github.io/2020/03/14/Matery%E6%96%87%E7%AB%A0Front-matter/"/>
+    <id>https://hsqblog.github.io/2020/03/14/Matery%E6%96%87%E7%AB%A0Front-matter/</id>
+    <published>2020-03-14T09:56:08.000Z</published>
+    <updated>2020-03-14T18:06:43.618Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;头一次建立博客，对博客的Front-matter的具体写法和含义还不是很熟悉，把它贴到博客上，以防忘记。&lt;/p&gt;
+&lt;p&gt;&lt;a
+        
+      
+    
+    </summary>
+    
+    
+      <category term="Hexo" scheme="https://hsqblog.github.io/categories/Hexo/"/>
+    
+    
+      <category term="记录" scheme="https://hsqblog.github.io/tags/%E8%AE%B0%E5%BD%95/"/>
+    
+      <category term="Hexo" scheme="https://hsqblog.github.io/tags/Hexo/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>惠普光影精灵3-黑苹果</title>
+    <link href="https://hsqblog.github.io/2020/03/14/%E6%83%A0%E6%99%AE%E5%85%89%E5%BD%B1%E7%B2%BE%E7%81%B53-%E9%BB%91%E8%8B%B9%E6%9E%9C/"/>
+    <id>https://hsqblog.github.io/2020/03/14/%E6%83%A0%E6%99%AE%E5%85%89%E5%BD%B1%E7%B2%BE%E7%81%B53-%E9%BB%91%E8%8B%B9%E6%9E%9C/</id>
+    <published>2020-03-14T09:45:51.000Z</published>
+    <updated>2020-03-14T18:11:49.376Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;介绍&quot;&gt;&lt;a href=&quot;#介绍&quot; class=&quot;headerlink&quot; title=&quot;介绍&quot;&gt;&lt;/a&gt;介绍&lt;/h1&gt;&lt;p&gt;等我更新……&lt;/p&gt;
+&lt;script&gt;
+       
+        
+      
+    
+    </summary>
+    
+    
+      <category term="黑苹果" scheme="https://hsqblog.github.io/categories/%E9%BB%91%E8%8B%B9%E6%9E%9C/"/>
+    
+    
+      <category term="记录" scheme="https://hsqblog.github.io/tags/%E8%AE%B0%E5%BD%95/"/>
+    
+      <category term="黑苹果" scheme="https://hsqblog.github.io/tags/%E9%BB%91%E8%8B%B9%E6%9E%9C/"/>
+    
+  </entry>
   
   <entry>
     <title>Markdown语法记录</title>

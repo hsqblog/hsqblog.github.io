@@ -95,6 +95,7 @@ a:hover{
 
 h1,h2,h3,h4,h5{
     cursor: url(https://cdn.jsdelivr.net/gh/hsqblog/CDN/ALiauto.cur),auto;
+    font-family: FANGSONG;
 }
 
 ::selection{
@@ -1314,6 +1315,7 @@ article .article-tags .chip {
     display: list-item;
     line-height: 1.8rem;
     font-size: 1rem;
+    font-family: FANGSONG;
 }
 
 #articleContent ul li {
