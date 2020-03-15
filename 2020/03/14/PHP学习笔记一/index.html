@@ -333,7 +333,7 @@ PHP 所有的代码都要在开始标记&amp;lt;?php符号和结束标记?&amp;g
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    200
+                    259
                 </div>
                 
 
@@ -368,13 +368,32 @@ PHP 所有的代码都要在开始标记&amp;lt;?php符号和结束标记?&amp;g
 <li><strong>PHP</strong> 所有的语句以<code>;</code>分号作为结束标示，没有分号结尾的语句会报错的。</li>
 </ul>
 </blockquote>
-<h1 id="PHP基本语法"><a href="#PHP基本语法" class="headerlink" title="PHP基本语法"></a>PHP基本语法</h1><h2 id="注释"><a href="#注释" class="headerlink" title="注释"></a>注释</h2><pre class=" language-php"><code class="language-php">
+<pre class=" language-php"><code class="language-php">
+<span class="token delimiter">&lt;?</span>
+   短标签表示开始结束；
+   <span class="token delimiter">?></span>
+<span class="token operator">&lt;</span><span class="token operator">%</span><span class="token operator">=</span>
+    asp标签表示开始结束；
+    <span class="token operator">%</span><span class="token operator">></span></code></pre>
+<blockquote>
+<p><strong>PHP</strong>中不建议使用短标签</p>
+</blockquote>
+<h1 id="PHP基本语法"><a href="#PHP基本语法" class="headerlink" title="PHP基本语法"></a>PHP基本语法</h1><h2 id="语句结束"><a href="#语句结束" class="headerlink" title="语句结束"></a>语句结束</h2><pre class=" language-php"><code class="language-php"><span class="token delimiter">&lt;?</span> php
+    <span class="token keyword">echo</span> <span class="token string">"REDX!"</span><span class="token punctuation">;</span>    <span class="token comment" spellcheck="true">// PHP以分号作为语句的结束符号</span>
+    <span class="token delimiter">?></span></code></pre>
+<h2 id="注释"><a href="#注释" class="headerlink" title="注释"></a>注释</h2><pre class=" language-php"><code class="language-php">
 <span class="token delimiter">&lt;?php</span>
-`<span class="token comment" spellcheck="true">/* 多行
-        注释 */</span>
-`<span class="token comment" spellcheck="true">// 单行注释 </span>
+    <span class="token comment" spellcheck="true">/* 多行
+            注释 */</span>
+
+    <span class="token comment" spellcheck="true">// 单行注释 </span>
+
+    <span class="token shell-comment comment"># 单行注释</span>
 <span class="token delimiter">?></span></code></pre>
-<h1 id="变量"><a href="#变量" class="headerlink" title="变量"></a>变量</h1><script>
+<h2 id="变量"><a href="#变量" class="headerlink" title="变量"></a>变量</h2><h3 id="表示"><a href="#表示" class="headerlink" title="表示"></a>表示</h3><pre class=" language-php"><code class="language-php"><span class="token delimiter">&lt;?php</span>
+
+    <span class="token delimiter">?></span></code></pre>
+<script>
         document.querySelectorAll('.github-emoji')
           .forEach(el => {
             if (!el.dataset.src) { return; }

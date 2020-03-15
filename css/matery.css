@@ -677,16 +677,16 @@ header .go-back i {
     line-height: 1.85em;
     margin-bottom: 20px;
     position: relative;
-    text-shadow: 0.05em 0.05em 0.05em black;
+    text-shadow: 0.05em 0.05em 0.01em black;
 }
 
 .bg-cover .description {
     font-size: 1.25rem;
     line-height: 1.4em;
     font-weight: 600;
-    font-family: ZHONGSONG;
-    color: #eee;
-    text-shadow: 0.05em 0.05em 0.05em black;
+    font-family: KAI;
+    color: #fff;
+    text-shadow: 0.05em 0.05em 0.01em black;
 }
 
 .bg-cover .post-title {
@@ -695,7 +695,7 @@ header .go-back i {
     font-weight: 600;
 }
 @-webkit-keyframes rainbow {
-/*
+
     0%,
     100% {
         background: rgba(156, 39, 176, 0.75);
@@ -738,11 +738,11 @@ header .go-back i {
         background: -moz-linear-gradient(135deg, rgba(233, 30, 99, 0.75) 0%, rgba(233, 30, 99, 0.65) 100%);
         background: -webkit-linear-gradient(135deg, rgba(2233, 30, 99, 0.75) 0%, rgba(233, 30, 99, 0.65) 100%);
     }
-    */
+
 }
 
 @keyframes rainbow {
-/*
+
     0%,
     100% {
         background: rgba(156, 39, 176, 0.75);
@@ -785,7 +785,7 @@ header .go-back i {
         background: -moz-linear-gradient(135deg, rgba(233, 30, 99, 0.75) 0%, rgba(233, 30, 99, 0.65) 100%);
         background: -webkit-linear-gradient(135deg, rgba(2233, 30, 99, 0.75) 0%, rgba(233, 30, 99, 0.65) 100%);
     }
-    */
+
 }
 
 
